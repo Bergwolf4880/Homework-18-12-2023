@@ -1,4 +1,4 @@
-public class GeometricFigures {
+public abstract class GeometricFigures {
 
     private int sideA;
     private int sideB;
@@ -17,14 +17,11 @@ public class GeometricFigures {
 
     public GeometricFigures(double diameter) {
         this.diameter = diameter;
-
     }
 
     public void resultOutput(){}
 
-    public String toString(){
-        return toString();
-    }
+
 
     public double getDiameter() {
         return diameter;
