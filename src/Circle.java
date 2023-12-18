@@ -1,19 +1,16 @@
 public class Circle extends GeometricFigures {
 
-
-    private double π = 3.14;
-
     public Circle(double diameter) {
         super(diameter);
     }
 
 
     private double countArea() {
-        return π * ((getDiameter() / 2) * (getDiameter() / 2));
+        return Math.PI * ((getDiameter() / 2) * (getDiameter() / 2));
     }
 
     private double countPerimeter() {
-        return π * getDiameter();
+        return Math.PI * getDiameter();
     }
 
     public String toString() {
