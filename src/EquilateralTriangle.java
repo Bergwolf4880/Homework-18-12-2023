@@ -1,6 +1,6 @@
 public class EquilateralTriangle extends GeometricFigures {
 
-    int s=getSideA();
+    private int s=getSideA();
 
     EquilateralTriangle(int sideA) {
         super(sideA);
@@ -21,7 +21,7 @@ public class EquilateralTriangle extends GeometricFigures {
     }
 
     public void resultOutput() {
-        System.out.println("Equilateral Triangle: " + countPerimeter() + "cm, area: " + countArea() + "cm²");
+        System.out.println("Equilateral Triangle: " + countPerimeter() + "cm, area: " + countArea() + "cm²\n");
     }
 
 }
